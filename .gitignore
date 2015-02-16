@@ -1,0 +1,53 @@
+
+*.class
+dist
+download
+push.sh
+remotebuild.py
+## gradle
+/.gradle
+/build
+/eclipse
+/gradlew.bat
+## ForgeGradle
+/run
+/out
+## idea
+*.iml
+*.ipr
+*.iws
+## eclipse
+/.settings
+/.metadata
+/.classpath
+/.project
+/bin
+/.idea
+/client/
+/Server/
+/classes/
+## misc
+## Ignore OS cache files
+*.DS_Store
+_MACOSX
+Thumbs.db
+## Ignore unnecessary files
+*.log
+*.lck
+minecraft/Start.java
+minecraft/cpw/*
+minecraft/forge_logo.png
+minecraft/havvy/*
+minecraft/ibxm/*
+minecraft/net/*
+minecraft/paulscode/*
+minecraft_server/*
+common/cpw/*
+common/havvy/*
+common/net/*
+common/org/*
+common/fml_at.cfg
+common/fml_marker.cfg
+common/fmlversion.properties
+common/forge_at.cfg
+*sublime*
